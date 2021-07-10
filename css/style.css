@@ -1,0 +1,293 @@
+html{   
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width:100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #222;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* ----------HEADER----------- */
+
+
+header{   
+     width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+   
+}
+
+
+nav{
+    width:50%;
+    display:flex;    
+    justify-content: flex-end;   
+    align-items: center; 
+    padding: 10px 12px;    
+    
+}
+
+
+
+
+.nav-text{
+   
+       font-size: 13px;
+       font-family: Roboto, arial;
+       margin-right: 10px;
+       
+       align-items: center;             
+}
+
+
+.nav-word{
+    padding-right: 10px;
+}
+
+
+.nav-imgs{
+        display:flex;
+        place-content: center;  
+        
+        
+}
+
+
+
+/* ------------App icon for nav-bar--------------- */
+
+
+.hover-app{
+    width:42px;
+    height:42px;    
+    border-radius: 50%;
+    display:flex;
+   place-content: center;
+   place-items: center;
+   margin-right: 10px;
+}
+
+.hover-app:hover{
+    background-color: rgba(60,64,67,0.08);
+}
+
+.app-img{
+ display:grid;
+ grid: repeat(3,1fr)/ auto-flow 1fr;
+ gap:12%;
+ width:16px;
+ height:16px; 
+
+}
+
+
+
+
+
+.item{
+    background: #6a6d70;
+    height:90%;
+    width:90%;
+    border-radius: 50%;
+   
+}
+
+
+/* -------------------END------------------- */
+
+.avatar{
+    border-radius: 50%;
+    
+    
+    
+}
+
+.hover-avatar{
+    width:42px;
+    height:42px;    
+    border-radius: 50%;
+    display:flex;
+   place-content: center;
+   place-items: center;
+}
+
+
+
+.hover-avatar:hover{
+    background-color: rgba(60,64,67,0.08);
+   
+}
+
+
+
+
+
+
+
+/* main page elements*/
+
+
+main{
+    width:100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    bottom:50px;
+    
+}
+
+
+
+.google-logo{
+
+    width:100%;
+    height: auto;
+    position:relative;
+    bottom:20px;
+    
+}
+
+/* ------------INPUT------------ */
+
+.input-div{
+    width:580px;
+    height: 44px;
+    border: 1px solid rgb(226, 223, 223);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+
+.input-div:hover{
+    border:1px solid transparent;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.input{
+    width:90%;
+    height: 30px;
+    border: none;
+
+}
+
+
+.input:focus{
+    outline: none !important;
+    border: none !important;
+}
+
+.search-logo{
+    width:13px;
+    height: 13px;
+  opacity: 0.4;
+}
+
+
+
+/*------------- BUTTONS----------------- */
+
+
+.buttons-div{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      top: 30px;
+}
+
+
+button{
+    padding: 6px 16px;
+    margin: auto 7px;
+    border: 1px solid transparent;
+    background: #f8f9fa;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+    color: rgb(73, 71, 71);
+
+}
+
+
+
+button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
+    color: #222;
+}
+
+
+
+
+
+
+/* -----------FOOTER------------- */
+
+
+hr{
+    background-color:rgba(0,0,0,.54);
+}
+
+footer{
+    color: rgba(0,0,0,.54);  
+    width: 100%;
+    background-color: #f2f2f2;
+   
+}
+
+
+.footer-links{  
+     
+    display: flex;
+    justify-content: space-between;
+    padding:15px 20px;
+    border-top: 1px solid rgba(167, 165, 165, 0.54);
+    
+    
+}
+
+
+.footer-links a{
+    color: #70757a; 
+   
+     padding:10px 15px;
+   
+}
+
+
+.footer-country{
+    padding: 2px 35px;
+}
+
+
+/* horizontal rule color rgba(0,0,0,.54); 1px solid */
